@@ -18,7 +18,7 @@ module.exports = {
         blue: {
           500: '#009CDE'
         },
-        // 900 - Background | 800 - Bg Cards | 500 - Dividers/Selected Itens | 300 - Secondary Text
+        // 900 - Background | 800 - Bg Cards | 500 - Dividers/Selected Itens | 200 - Secondary Text
         gray: {
           900: '#141414',
           800: '#121214',
