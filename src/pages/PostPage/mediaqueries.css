@@ -1,5 +1,9 @@
 /* Post Content MediaQueries */
 
+.post-rendered {
+    @apply text-2xl
+}
+
 .grid-header {
     @apply grid grid-cols-2
 }
