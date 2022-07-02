@@ -42,7 +42,7 @@ export function PostContent({...data}) {
 
                     <Aside />
 
-                    <div className="post-rendered bg-white text-gray-900 p-8">
+                    <div className="post-rendered bg-white text-gray-900 p-2 sm:p-8">
                         {parser(data.content.rendered)}
                     </div>
                 </div>
