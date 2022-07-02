@@ -5,7 +5,7 @@ import { Lightning } from "phosphor-react";
 import { api } from "../../../../../services/baseURL"
 
 export function Cards() {
-    const { data: posts, setData: setPosts, error, isFetching } = useFetchFirst()
+    const { data: posts, setData: setPosts } = useFetchFirst()
     const { maxPages: pages, setPages} = useFetchMaxPages()
     const [page, setPage] = useState<string | number>('2')
 
@@ -23,7 +23,6 @@ export function Cards() {
     return (
         <div>
             <div className="grid-cards">
-                { isFetching && <p>Carregando</p> }
                 { posts?.map(post => {
                     return (
                         <Card

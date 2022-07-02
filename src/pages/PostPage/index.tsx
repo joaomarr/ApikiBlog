@@ -6,7 +6,7 @@ import './mediaqueries.css';
 
 function PostPage() {
   const { slug } = useParams<string>()
-  const { data, setData, error, isFetching } = useFetchPost(slug!)
+  const { data, setData } = useFetchPost(slug!)
 
   return (
     <>
