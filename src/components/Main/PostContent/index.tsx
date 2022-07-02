@@ -14,7 +14,7 @@ export function PostContent({...data}) {
         <main className="mx-10 md:mx-[100px]">
             <Breadcrumb title={null} category={'Desenvolvimento Wordpress'}/>
             <div className="sm:mx-[15px] my-9 flex flex-col">
-                <div className="grid-header grid grid-cols-2 w-full mb-9">
+                <div className="grid-header w-full mb-9">
                     <div className="flex items-center">
                         <img
                             className="w-full h-auto"
