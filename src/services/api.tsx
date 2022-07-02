@@ -1,4 +1,5 @@
-import { useFetch, useHeaders } from "../hooks/useFetch"
+import { useFetch } from "../hooks/useFetch"
+import { useHeaders } from "../hooks/useHeaders"
 import { CardContent, PostContent } from "../interfaces/interfaces"
 
 export function useFetchFirst() {
