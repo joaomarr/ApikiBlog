@@ -3,7 +3,7 @@ import { FacebookLogo, LinkedinLogo, TelegramLogo, WhatsappLogo } from "phosphor
 
 export function Aside() {
     return (
-        <aside className="media-aside sticky top-5 h-full w-[100px] px-5">
+        <aside className="media-aside sticky top-5 h-full w-[100px]">
             <div className="p-3 bg-blue-600 flex justify-center items-center cursor-pointer">
                 <FacebookLogo size={36} />
             </div>
